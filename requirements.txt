@@ -1,0 +1,10 @@
+keyboard==0.13.5
+numpy<3
+psutil>=5.9,<8
+pynput==1.8.2
+requests>=2.31,<3
+scipy>=1.13,<2
+sounddevice==0.5.5
+faster-whisper==1.0.3
+ctranslate2==4.7.1
+setuptools<81
