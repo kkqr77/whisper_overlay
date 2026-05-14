@@ -15,16 +15,6 @@ Small Windows overlay for microphone recording and Whisper transcription with:
 - `run_overlay.bat`
 - `.gitignore`
 
-## Not Included
-
-These are intentionally excluded from the GitHub upload:
-
-- `.venv/`
-- `models/`
-- `logs/`
-- `__pycache__/`
-- user config file `~/.whisper_support.json`
-
 ## Requirements
 
 - Windows
@@ -58,8 +48,4 @@ The app supports local CTranslate2 Whisper models inside a `models/` folder. If 
 
 - Runtime settings are stored in the user-local file `~/.whisper_support.json`.
 - The default API endpoint is `http://localhost:8000/v1/audio/transcriptions`.
-- If GPU libraries are unavailable, the overlay falls back to CPU instead of crashing.
-
-## Publishing
-
-For GitHub, upload only the contents of this folder. Do not upload your local `.venv`, cached models, logs, or home-directory config file.
+- If GPU libraries are unavailable, the overlay falls back to CPU instead of crashing
